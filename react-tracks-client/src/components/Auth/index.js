@@ -10,6 +10,6 @@ export default withRoot(() => {
   return newUser ? (
     <Register setNewUser={setNewUser}/>
   ) : (
-    <Login />
+    <Login setNewUser={setNewUser}/>
   )
 });
